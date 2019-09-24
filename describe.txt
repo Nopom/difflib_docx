@@ -1,0 +1,8 @@
+本项目是对比两个docx文件的不同之处（基于xml进行分析，基于difflib工具包）
+将对比原始文件放到compareRobot文件中运行compareWithContract.py
+输出的文件在compareRobot中，会生成一个以对比运行compareWithContract.py文件时的时间戳所命名的文件夹，里面放的是对比好之后的两个文档
+
+标红色：原文本删除内容
+标绿色：原文本增加内容
+标黄色：原文本修改内容
+标灰色：原文本内容全变内容（与原文本对比相似度低于20%）
